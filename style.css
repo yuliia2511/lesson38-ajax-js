@@ -1,0 +1,66 @@
+body {
+    max-width: 1440px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 200px;
+    margin: 0;
+    height: 200px;
+}
+
+h2 {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 200px;
+    margin: 0;
+    height: 200px;
+    position: absolute;
+    padding-top: 30vh;
+
+}
+
+h3 {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    font-size: 18px;
+    padding-top: 20vh;
+    margin: 0 auto;
+}
+
+#form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#title {
+    width: 340px;
+    height: 35px;
+    border: none;
+}
+
+#btn {
+    background-color: lightskyblue;
+    height: 37px;
+    border: none;
+}
+
